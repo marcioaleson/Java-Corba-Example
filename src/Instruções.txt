@@ -1,0 +1,8 @@
+Ir para o diretorio do StartServer.java com o cmd
+start orbd -ORBInitialPort 1050 -ORBInitialHost 200.97.153.63
+javac StartServer.java
+java StartServer -ORBInitialPort 1050
+
+Ir para o diretorio do StartCliente.java com o cmd
+javac StartCliente.java -ORBInitialHost INTRÉPIDO -ORBInitialPort 1050
+java StartCliente -ORBInitialHost INTRÉPIDO -ORBInitialPort 1050 
